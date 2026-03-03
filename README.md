@@ -25,7 +25,9 @@ I build open-source AI tools and developer utilities. Focused on making complex 
 
 ## What I'm Working On
 
-Building a **multi-agent system** that supports **daily task management** and **finance consulting**. The system leverages autonomous AI agents that collaborate to help users organize their workflow, automate routine tasks, and provide intelligent financial advice — all accessible to freelancers and small teams.
+- Working on an end-to-end ML system for operation optimization in Manufacturing at [Green Factory AI](https://greenfactory.ai/)
+- Building a **multi-agent system** that supports **daily task management** and **finance consulting** — autonomous AI agents that collaborate to help users organize their workflow, automate routine tasks, and provide intelligent financial advice
+- Developing an **edge ML orchestration framework** with built-in explainability, quality monitoring, and optimization with SLA/SLO support
 
 ## Tech Stack
 
