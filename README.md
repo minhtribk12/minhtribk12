@@ -25,7 +25,7 @@ I build open-source AI tools and developer utilities. Focused on making complex 
 
 ## What I'm Working On
 
-Building a **no-code platform** with tools and libraries to use ML/AI models for **finance prediction** (stock & crypto). The goal is to make advanced predictive analytics accessible to freelancers and small teams without requiring deep ML expertise.
+Building a **multi-agent system** that supports **daily task management** and **finance consulting**. The system leverages autonomous AI agents that collaborate to help users organize their workflow, automate routine tasks, and provide intelligent financial advice — all accessible to freelancers and small teams.
 
 ## Tech Stack
 
@@ -77,6 +77,6 @@ Building a **no-code platform** with tools and libraries to use ML/AI models for
 ---
 
 <p align="center">
-  <i>Open to collaborations on AI/ML tooling, finance prediction, and open-source projects.</i><br>
+  <i>Open to collaborations on AI/ML tooling, multi-agent systems, finance consulting, and open-source projects.</i><br>
   <a href="https://www.linkedin.com/in/tri-nguyen-cse/">Let's connect</a>
 </p>
