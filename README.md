@@ -55,11 +55,9 @@ I build open-source AI tools and developer utilities. Focused on making complex 
 
 ## GitHub Stats
 
-<!-- Replace minhtribk12 below with your actual GitHub username -->
-
 <p align="center">
-  <img src="https://github-readme-stats-one.vercel.app/api?username=minhtribk12&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="170"/>
-  <img src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=minhtribk12&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="170"/>
+  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/master/generated/overview.svg#gh-dark-mode-only"/>
+  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/master/generated/languages.svg#gh-dark-mode-only"/>
 </p>
 
 <p align="center">
