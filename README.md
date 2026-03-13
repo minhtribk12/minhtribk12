@@ -58,7 +58,7 @@ I build open-source AI tools and developer utilities. Focused on making complex 
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/output/github-snake-dark.svg" alt="Snake animation"/>
+  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/output/github-snake.svg" alt="Snake animation"/>
 </p>
 
 ## Key Research & Projects
