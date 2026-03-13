@@ -11,37 +11,30 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Clone github-stats
-        run: |
-          git clone https://github.com/jstrieb/github-stats.git /tmp/github-stats
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: lowlighter/metrics@latest
         with:
-          python-version: "3.10"
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: minhtribk12
+          template: classic
+          filename: generated/metrics.svg
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
 
-      - name: Install requirements
-        run: python3 -m pip install -r /tmp/github-stats/requirements.txt
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
 
-      - name: Generate images
-        working-directory: /tmp/github-stats
-        run: python3 generate_images.py
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          EXCLUDE_FORKED_REPOS: "true"
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
 
-      - name: Copy generated files and commit
-        run: |
-          cp -r /tmp/github-stats/generated/ generated/
-          git config user.name "github-stats[bot]"
-          git config user.email "github-stats[bot]@users.noreply.github.com"
-          git add generated/
-          git commit -m 'chore: update generated stats' || true
-          git push
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_self: yes
+
+          config_timezone: Europe/Helsinki

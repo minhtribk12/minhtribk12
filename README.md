@@ -56,16 +56,11 @@ I build open-source AI tools and developer utilities. Focused on making complex 
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/main/generated/overview.svg#gh-dark-mode-only"/>
-  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/main/generated/languages.svg#gh-dark-mode-only"/>
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=minhtribk12&theme=darkhub&no-frame=true&column=7&margin-w=10" alt="Trophies"/></a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=minhtribk12&theme=github-dark-blue&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=minhtribk12&theme=github-compact&hide_border=true&area=true"/>
+  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/main/generated/metrics.svg" alt="Metrics"/>
 </p>
 
 ## Key Research & Projects
