@@ -1,9 +1,7 @@
 <h1 align="center">Hi, I'm Tri Nguyen <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h1>
 
 <p align="center">
-  <b>Data Scientist & ML Systems Engineer</b><br>
-  PhD in AI & ML Systems | 15+ Peer-Reviewed Publications<br>
-  <i>Building production ML systems that bridge the gap between research and real-world impact.</i>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Data+Scientist+%26+ML+Systems+Engineer;PhD+in+AI+%26+ML+Systems;Building+production+ML+pipelines;15%2B+Peer-Reviewed+Publications" alt="Typing SVG"/></a>
 </p>
 
 <p align="center">
@@ -56,11 +54,11 @@ I build open-source AI tools and developer utilities. Focused on making complex 
 ## GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=minhtribk12&theme=darkhub&no-frame=true&column=7&margin-w=10" alt="Trophies"/></a>
+  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/main/generated/metrics.svg" alt="Metrics"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/main/generated/metrics.svg" alt="Metrics"/>
+  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/output/github-snake-dark.svg" alt="Snake animation"/>
 </p>
 
 ## Key Research & Projects
