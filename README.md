@@ -56,8 +56,8 @@ I build open-source AI tools and developer utilities. Focused on making complex 
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/master/generated/overview.svg#gh-dark-mode-only"/>
-  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/master/generated/languages.svg#gh-dark-mode-only"/>
+  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/main/generated/overview.svg#gh-dark-mode-only"/>
+  <img src="https://raw.githubusercontent.com/minhtribk12/minhtribk12/main/generated/languages.svg#gh-dark-mode-only"/>
 </p>
 
 <p align="center">

@@ -5,13 +5,39 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: jstrieb/github-stats@master
+      - uses: actions/checkout@v4
+
+      - name: Clone github-stats
+        run: |
+          git clone https://github.com/jstrieb/github-stats.git /tmp/github-stats
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
+          python-version: "3.10"
+
+      - name: Install requirements
+        run: python3 -m pip install -r /tmp/github-stats/requirements.txt
+
+      - name: Generate images
+        run: python3 /tmp/github-stats/generate_images.py
+        env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          EXCLUDE_FORKED_REPOS: true
+          EXCLUDE_FORKED_REPOS: "true"
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-stats[bot]"
+          git config user.email "github-stats[bot]@users.noreply.github.com"
+          git add generated/
+          git commit -m 'chore: update generated stats' || true
+          git push
